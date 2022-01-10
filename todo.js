@@ -4,7 +4,7 @@ const toDoInput = toDoForm.querySelector("input");
 
 const TODOS_KEY = "todos";
 
-const toDos = [];
+let toDos = [];
 
 function saveToDos() {
     localStorage.setItem(TODOS_KEY, JSON.stringify(toDos));
