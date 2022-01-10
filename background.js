@@ -6,7 +6,9 @@ const images = [
     "5.jpg",
     "6.jpg",
     "7.jpg",
-    "8.jpg"
+    "8.jpg",
+    "9.jpg",
+    "10.jpg"
 ];
 
 const makeImage = images[Math.floor(Math.random() * 8)];
